@@ -9,13 +9,6 @@
             "memory": 128
         },
         {
-            "name": "backend",
-            "image": "kuhoo2000/docker-backend",
-            "hostname": "backend",
-            "essential": false,
-            "memory": 128
-        },
-        {
             "name": "nginx",
             "image": "kuhoo2000/docker-nginx",
             "hostname": "nginx",
@@ -26,7 +19,7 @@
                     "containerPort": 80
                 }
             ],
-            "links": ["frontend", "backend"],
+            "links": ["frontend"],
             "memory": 128
         }
     ]
