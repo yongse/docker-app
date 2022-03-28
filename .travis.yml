@@ -26,6 +26,7 @@ deploy:
     region: "ap-northeast-2"
     app: "react"
     env: "React-env"
+
     bucket_name: elasticbeanstalk-ap-northeast-2-592357601050
     bucket_path: "react"
     on:
